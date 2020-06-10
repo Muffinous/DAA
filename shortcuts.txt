@@ -1,0 +1,68 @@
+# lambda x: x[1] -> to sort list by the second element of each tuple
+sort(key=lambda x: x[1])
+
+# leer tres variables int a la vez
+x, y, cost = map(int, input().strip().split())
+
+# crear un array = [[0,0], [0,0]] si n = 2
+activities = [[0, 0] for _ in range(n)]
+
+# boolean arrays
+any(array): comprueba si al menos hay al menos un True en el array
+all(array): comprueba si todos los elementos son True
+
+# copiar un array o algo asi gordito
+best = copy.deepcopy(sol1)
+
+# meter un grafo con parentesis chuli :
+(si empieza en 1)
+g = [[]]
+(si empieza en 0)
+g = []
+for i in range(positions):
+    g.append([])
+for i in range(traject):
+    start, end = map(int, input().strip().split())
+    g[start].append((start, end, lost[end]))
+    g[end].append((end, start, lost[start]))
+
+# inicializar un tablero
+def initialize(rows, columns):
+    grid = [[0] * columns for i in range(rows)]  # initialize board values to 0
+    return grid
+
+
+¿BACKTRACKING O VORAZ SOBRE GRAFO?
+Si se pueden partir los elementos, voraz sobre grafo.
+Si se tiene que coger el elemento entero backtracking.
+
+Teoría de VORACES:
+- No siempre dan la solución óptima
+- No obtiene el óptimo global (no considera decisiones ya tomadas)
+- Decisión óptima en cada iteración
+- Óptimo para:
+        * Cuando tienes que pasar por todos y son cosas.
+
+
+Teoría de VORACES SOBRE GRAFOS:
+
+RECUBRIMIENTO MÍNIMO. Ambos tienen un contador.
+
+* Kruskal. O(n*e) siendo n los vértices
+Va seleccionando las aristas más cortas.
+No dan ningún punto de inicio ni final.
+Devuelve el número de peso mínimo entre los nodos.
+
+* Prim. O(n)
+Dan un punto inicial (el final es la longitud del grafo - 1)
+Sino, selecciona un vértice al azar y construye un árbol a partir de él (demuestra que funciona).
+1. Selecciona el punto inicial.
+2. Se actualiza el vector de distancias desde ese punto.
+3. Se coge el index que tenga el mínimo valor en el array de distancias.
+
+CAMINOS MÍNIMOS.
+
+* Dijsktra. O(n^2)
+Va de un origen a un destino, es el camino mínimo entre dos vértices.
+Mismo procedimiento más o menos que Prim.
+Devuelve la distancia que queda en la posición del array de distancias del destino.

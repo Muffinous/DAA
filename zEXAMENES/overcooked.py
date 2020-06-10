@@ -7,6 +7,7 @@
 # 697 737
 # 626
 
+
 def print_sol(d, sol, ord):
     print(*ord, sep=' ')
     total = 0

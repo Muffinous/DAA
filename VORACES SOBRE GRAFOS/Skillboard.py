@@ -1,4 +1,3 @@
-from random import randint
 # PRIM
 
 
@@ -14,8 +13,7 @@ def _select_min_(distances, visited):
     return next, weight
 
 
-def getAllSkills(g):
-    initial = 1
+def getAllSkills(g, initial):
     visited = [False] * len(g)
     count = 0
 
@@ -47,7 +45,4 @@ for j in range(paths):
     g[x].append((x, y, cost))
     g[y].append((y, x, cost))
 
-# for i in range(skills):
-#    print(g[i])
-
-print(getAllSkills(g))
+print(getAllSkills(g, 1))

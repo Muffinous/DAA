@@ -1,36 +1,29 @@
-def isSolution(start, end, salas_visited):
-    return all(salas_visited) and start == end
+def isSolution(ini, final, salas_visited):
+    return ini == final and all(salas_visited)
 
 
-def isFeasible(b, next, copy):
+def isFeasible(b, next):
     if next[0] < len(b) and next[1] < len(b[0]):
-        return b[next[0]][next[1]] != 2 and not copy[next[0]][next[1]]
+        return b[next[0]][next[1]] != 2 and not b[next[0]][next[1]] == 'x'
     return False
 
 
-def best(sol1, sol2):
-    if sol1 > sol2:
-        best = sol2
-    else:
-        best = sol1
-    return best
-
-
-def ikea(b, sections, start, end, bestsol, mov, visited, k, copy):
+def ikea(b, start, end, best, mov, sala_visited, k, lastroom):
     if isSolution(start, end, salas_visited):
-        bestsol = best(bestsol, k)
+        best = min(best, k)
     else:
         for i in range(len(mov['x'])):
             next_mov = [start[0] + mov['x'][i], start[1] + mov['y'][i]]
-            if isFeasible(b, next_mov, copy):
-                if not visited[b[next_mov[0]][next_mov[1]]]:
-                    visited[b[next_mov[0]][next_mov[1]]] = True
-                copy[next_mov[0]][next_mov[1]] = True
+            if isFeasible(b, next_mov):
+                lastroom.append(b[next_mov[0]][next_mov[1]])
+                if not sala_visited[b[next_mov[0]][next_mov[1]]]:
+                    sala_visited[b[next_mov[0]][next_mov[1]]] = True
+                b[next_mov[0]][next_mov[1]] = 'x'
                 k += 1
-                bestsol = ikea(b, sections, next_mov, end, bestsol, mov, visited, k, copy)
+                best = ikea(b, next_mov, end, best, mov, sala_visited, k, lastroom)
                 k -= 1
-                copy[next_mov[0]][next_mov[1]] = False
-    return bestsol
+                b[next_mov[0]][next_mov[1]] = lastroom[len(lastroom) - 1]
+    return best
 
 
 rows, columns, sections = map(int, input().strip().split())
@@ -68,7 +61,7 @@ for i in range(3, sections + 3):
     salas_visited.append(False)
 
 bestsol = float('inf')
-sol = ikea(board, sections, start, end, bestsol, mov, salas_visited, 1, copy)
+sol = ikea(board, start, end, bestsol, mov, salas_visited, 1, [])
 
 print(sol)
 

@@ -3,7 +3,7 @@ import timeit
 
 
 def initializeBoard(horse_pos, final_pos):
-    board = [[0] * 5 for x in range(5)]
+    board = [[0] * 5 for _ in range(5)]
     for i in range(5):
         for j in range(5):
             if i == horse_pos[0] and j == horse_pos[1]:

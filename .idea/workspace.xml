@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5888d383-193d-4012-b449-40ead8b1f0ea" name="Default Changelist" comment="" />
+    <list default="true" id="5888d383-193d-4012-b449-40ead8b1f0ea" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BAB/PROFE/AsignacionTareasBranchAndBound_PriorityQueue (1).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BAB/PROFE/MochilaBranchAndBound.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BAB/PROFE/MochilaBranchAndBound_PriorityQueue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BAB/PROFE/ViajanteBranchAndBound_PriorityQueue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BAB/Yincana.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shortcuts.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zEXAMENES/alumnosexamen2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zEXAMENES/blaster.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zEXAMENES/ikea2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zEXAMENES/ikeacomomanu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zEXAMENES/internet/perfectsquare.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BACKTRAKING/horse_jump.py" beforeDir="false" afterPath="$PROJECT_DIR$/BACKTRAKING/horse_jump.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VORACES SOBRE GRAFOS/Skillboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/VORACES SOBRE GRAFOS/Skillboard.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shortcuts.py" beforeDir="false" afterPath="$PROJECT_DIR$/ADABYRON/horselito.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zEXAMENES/ikea.py" beforeDir="false" afterPath="$PROJECT_DIR$/zEXAMENES/ikea.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zEXAMENES/overcooked.py" beforeDir="false" afterPath="$PROJECT_DIR$/zEXAMENES/overcooked.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zEXAMENES/trying.py" beforeDir="false" afterPath="$PROJECT_DIR$/zEXAMENES/trying.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,7 +37,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1XqUqvC6w6Po0ATG02aLysqalAz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -25,25 +49,26 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/zEXAMENES" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/BACKTRAKING (tema 5)/profe.py" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\mimia\Desktop\URJC\DAA\BranchAndBound" />
-      <recent name="C:\Users\mimia\Desktop\URJC\DAA\BACKTRAKING\profe" />
-      <recent name="C:\Users\mimia\Desktop\URJC\DAA\VORACES\PROFE" />
-      <recent name="C:\Users\mimia\Desktop\URJC\DAA\Divide y venceras\PROFE" />
-      <recent name="C:\Users\mimia\Desktop\URJC\DAA\VORACES SOBRE GRAFOS" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\mimia\Desktop\URJC\DAA\zEXAMENES" />
       <recent name="C:\Users\mimia\Desktop\URJC\DAA\VORACES\PROFE" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mimia\Desktop\URJC\DAA\BAB\PROFE" />
+      <recent name="C:\Users\mimia\Desktop\URJC\DAA\BranchAndBound" />
+      <recent name="C:\Users\mimia\Desktop\URJC\DAA\BACKTRAKING\profe" />
+      <recent name="C:\Users\mimia\Desktop\URJC\DAA\VORACES\PROFE" />
+      <recent name="C:\Users\mimia\Desktop\URJC\DAA\Divide y venceras\PROFE" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.ikea">
+  <component name="RunManager" selected="Python.Skillboard">
     <configuration name="2_bfs" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="DAA" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -65,7 +90,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Actividades (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Skillboard" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DAA" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -73,53 +98,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Downloads" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/Downloads/Actividades.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ProblemaC-Actividades" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="DAA" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Downloads" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/Downloads/ProblemaC-Actividades.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="actividades_h" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="DAA" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/VORACES/PROFE" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/VORACES SOBRE GRAFOS" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/VORACES/PROFE/actividades_h.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/VORACES SOBRE GRAFOS/Skillboard.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -128,28 +111,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="activities" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="DAA" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/VORACES" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\mimia\Desktop\URJC\DAA\VORACES\activities.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ikea" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ikeacomomanu" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DAA" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -161,7 +123,70 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zEXAMENES/ikea.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zEXAMENES/ikeacomomanu.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mesti" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DAA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BACKTRAKING" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BACKTRAKING/mesti.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="perfectsquare" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DAA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/zEXAMENES/internet" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zEXAMENES/internet/perfectsquare.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="skillboard" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DAA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/zEXAMENES" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zEXAMENES/skillboard.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -172,11 +197,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.ikea" />
-        <item itemvalue="Python.activities" />
-        <item itemvalue="Python.ProblemaC-Actividades" />
-        <item itemvalue="Python.actividades_h" />
-        <item itemvalue="Python.Actividades (1)" />
+        <item itemvalue="Python.Skillboard" />
+        <item itemvalue="Python.perfectsquare" />
+        <item itemvalue="Python.skillboard" />
+        <item itemvalue="Python.ikeacomomanu" />
+        <item itemvalue="Python.mesti" />
       </list>
     </recent_temporary>
   </component>
@@ -222,46 +247,46 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1587812999666" />
-    <state width="936" height="329" key="GridCell.Tab.0.bottom" timestamp="1591733764218">
+    <state width="871" height="328" key="GridCell.Tab.0.bottom" timestamp="1591819275615">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="329" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591733764218" />
-    <state width="936" height="329" key="GridCell.Tab.0.center" timestamp="1591733764217">
+    <state width="871" height="328" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591819275615" />
+    <state width="871" height="328" key="GridCell.Tab.0.center" timestamp="1591819275615">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="329" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591733764217" />
-    <state width="936" height="329" key="GridCell.Tab.0.left" timestamp="1591733764217">
+    <state width="871" height="328" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591819275615" />
+    <state width="871" height="328" key="GridCell.Tab.0.left" timestamp="1591819275615">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="329" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591733764217" />
-    <state width="936" height="329" key="GridCell.Tab.0.right" timestamp="1591733764218">
+    <state width="871" height="328" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591819275615" />
+    <state width="871" height="328" key="GridCell.Tab.0.right" timestamp="1591819275615">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="329" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591733764218" />
-    <state width="936" height="305" key="GridCell.Tab.1.bottom" timestamp="1591721872716">
+    <state width="871" height="328" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591819275615" />
+    <state width="871" height="328" key="GridCell.Tab.1.bottom" timestamp="1591819275615">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="305" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591721872716" />
-    <state width="936" height="305" key="GridCell.Tab.1.center" timestamp="1591721872716">
+    <state width="871" height="328" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591819275615" />
+    <state width="871" height="328" key="GridCell.Tab.1.center" timestamp="1591819275615">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="305" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591721872716" />
-    <state width="936" height="305" key="GridCell.Tab.1.left" timestamp="1591721872716">
+    <state width="871" height="328" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591819275615" />
+    <state width="871" height="328" key="GridCell.Tab.1.left" timestamp="1591819275615">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="305" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591721872716" />
-    <state width="936" height="305" key="GridCell.Tab.1.right" timestamp="1591721872716">
+    <state width="871" height="328" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591819275615" />
+    <state width="871" height="328" key="GridCell.Tab.1.right" timestamp="1591819275615">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="305" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591721872716" />
-    <state width="572" height="520" key="XDebugger.FullValuePopup" timestamp="1591556755686">
+    <state width="871" height="328" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591819275615" />
+    <state width="572" height="520" key="XDebugger.FullValuePopup" timestamp="1591794445128">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="572" height="520" key="XDebugger.FullValuePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1591556755686" />
-    <state x="656" y="344" width="606" height="352" key="com.intellij.ide.util.TipDialog" timestamp="1591730341332">
+    <state width="572" height="520" key="XDebugger.FullValuePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1591794445128" />
+    <state x="656" y="344" width="606" height="352" key="com.intellij.ide.util.TipDialog" timestamp="1591796283038">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="344" width="606" height="352" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591730341332" />
+    <state x="656" y="344" width="606" height="352" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591796283038" />
     <state x="1152" y="70" width="724" height="651" key="dock-window-1" timestamp="1590774090820">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -450,7 +475,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/VORACES SOBRE GRAFOS/Skillboard.py</url>
-          <line>52</line>
+          <line>47</line>
           <option name="timeStamp" value="102" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -525,7 +550,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/zEXAMENES/overcooked.py</url>
-          <line>71</line>
+          <line>72</line>
           <option name="timeStamp" value="149" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -587,6 +612,46 @@
           <url>file://$PROJECT_DIR$/VORACES/activities.py</url>
           <line>16</line>
           <option name="timeStamp" value="185" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/zEXAMENES/ikea2.py</url>
+          <line>90</line>
+          <option name="timeStamp" value="188" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/zEXAMENES/ikea.py</url>
+          <line>70</line>
+          <option name="timeStamp" value="190" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ADABYRON/horselito.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="192" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/zEXAMENES/alumnosexamen2.py</url>
+          <line>44</line>
+          <option name="timeStamp" value="194" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/zEXAMENES/ikeacomomanu.py</url>
+          <line>63</line>
+          <option name="timeStamp" value="196" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/VORACES SOBRE GRAFOS/Skillboard.py</url>
+          <line>39</line>
+          <option name="timeStamp" value="199" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/zEXAMENES/skillboard.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="200" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/zEXAMENES/internet/perfectsquare.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="201" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
